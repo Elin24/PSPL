@@ -1,2 +1,4 @@
-# PSPL
-The code of "Pixel-level self-paced learning for super-resolution" accepted  to ICASSP 2020
+# Pixel-level self-paced learning for super-resolution
+This is the implementation of ICASSP 2020 paper "Pixel-level self-paced learning for super-resolution" (PSPL for short).
+
+## coming soon ...
