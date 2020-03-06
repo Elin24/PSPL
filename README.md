@@ -3,6 +3,7 @@
 This is  an official implementaion of PSPL, which has been accepted by ICASSP 2020.
 
 [Pixel-level self-paced learning for super-resolution](http://crabwq.github.io/pdf/2020%20Pixel-Level%20Self-Paced%20Learning%20for%20Super-Resolution.pdf)
+
 ## Requirements
 
 This code is forked from [thstkdgus35/EDSR-PyTorch](https://github.com/thstkdgus35/EDSR-PyTorch), As its README described, following libraries are required:
@@ -19,7 +20,7 @@ This code is forked from [thstkdgus35/EDSR-PyTorch](https://github.com/thstkdgus
 
 ![pspl framework](images/flow.png)
 
-detail code is shown in [Loss.forward](https://github.com/Elin24/PSPL), which can be simplified as:
+detail code is shown in [Loss.forward](https://github.com/Elin24/PSPL/blob/2deb17d4bcf7db17463238e143ca94e438e51e2a/src/loss/__init__.py#L60), which can be simplified as:
 
 ```python
 # take L1 Loss as example
@@ -56,10 +57,6 @@ the library pytorch_ssim is focked from [Po-Hsun-Su/pytorch-ssim](https://github
 
 Attention weight values change according to *SSIM Index* and *step*:
 ![attention values](images/attention.png)
-
-## Experiment Results
-
-![Comparison of EDSR baseline model with and without PSPL](images/edsrcomp.png)
 
 ## Citation
 
