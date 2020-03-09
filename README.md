@@ -1,12 +1,14 @@
-# Pixel-level self-paced learning for super-resolution
+# Pixel-level Self-Paced Learning for Super-Resolution
 
-This is  an official implementaion of PSPL, which has been accepted by ICASSP 2020.
+This is  an official implementaion of the paper **Pixel-level Self-Paced Learning for Super-Resolution**, which has been accepted by ICASSP 2020.
 
-[Pixel-level self-paced learning for super-resolution](http://crabwq.github.io/pdf/2020%20Pixel-Level%20Self-Paced%20Learning%20for%20Super-Resolution.pdf)
+[[arxiv](https://arxiv.org/abs/2003.03113)][[PDF](https://arxiv.org/pdf/2003.03113)]
+<!-- 
+[Pixel-level Self-Paced Learning for Super-Resolution](http://crabwq.github.io/pdf/2020%20Pixel-Level%20Self-Paced%20Learning%20for%20Super-Resolution.pdf)  -->
 
 ## Requirements
 
-This code is forked from [thstkdgus35/EDSR-PyTorch](https://github.com/thstkdgus35/EDSR-PyTorch), As its README described, following libraries are required:
+This code is forked from [thstkdgus35/EDSR-PyTorch](https://github.com/thstkdgus35/EDSR-PyTorch). In the light of its README, following libraries are required:
 
 - Python 3.6+ (Python 3,7,0 in ny experiments)
 - PyTorch >= 1.0.0 (1.1.0 in my experiments)
@@ -20,7 +22,7 @@ This code is forked from [thstkdgus35/EDSR-PyTorch](https://github.com/thstkdgus
 
 ![pspl framework](images/flow.png)
 
-detail code is shown in [Loss.forward](https://github.com/Elin24/PSPL/blob/2deb17d4bcf7db17463238e143ca94e438e51e2a/src/loss/__init__.py#L60), which can be simplified as:
+Detail code can be found in [Loss.forward](https://github.com/Elin24/PSPL/blob/2deb17d4bcf7db17463238e143ca94e438e51e2a/src/loss/__init__.py#L60), which can be simplified as:
 
 ```python
 # take L1 Loss as example
@@ -55,7 +57,7 @@ class Loss(nn.modules.loss._Loss):
 
 the library pytorch_ssim is focked from [Po-Hsun-Su/pytorch-ssim](https://github.com/Po-Hsun-Su/pytorch-ssim) and rewrite some details for adopting it to our requirements.
 
-Attention weight values change according to *SSIM Index* and *step*:
+Attention weight values change according to *SSIM Index* and *steps*:
 ![attention values](images/attention.png)
 
 ## Citation
