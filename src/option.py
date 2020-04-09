@@ -148,7 +148,7 @@ parser.add_argument('--save_gt', action='store_true',
                     help='save low-resolution and high-resolution images together')
 
 # SPL parameter
-parser.add_argument('--splalpha', default=0.3,
+parser.add_argument('--splalpha', default=1,
                     help='sigma init value')
 parser.add_argument('--splbeta', default=0,
                     help='sigma init value')
