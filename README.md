@@ -66,10 +66,10 @@ If you find this project useful for your research, please cite:
 
 ```bibtex
 @inproceedings{lin2020pixel,
-  title={Pixel-level self-paced learning for super-resolution},
+  title={Pixel-Level Self-Paced Learning For Super-Resolution}
   author={Lin, Wei and Gao, Junyu and Wang, Qi and Li, Xuelong},
-  booktitle={2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  booktitle={ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
   year={2020},
-  organization={IEEE}
+  pages={2538-2542}
 }
 ```
