@@ -10,7 +10,7 @@ This is  an official implementaion of the paper **Pixel-level Self-Paced Learnin
 
 This code is forked from [thstkdgus35/EDSR-PyTorch](https://github.com/thstkdgus35/EDSR-PyTorch). In the light of its README, following libraries are required:
 
-- Python 3.6+ (Python 3,7,0 in ny experiments)
+- Python 3.6+ (Python 3.7.0 in my experiments)
 - PyTorch >= 1.0.0 (1.1.0 in my experiments)
 - numpy
 - skimage
@@ -52,7 +52,7 @@ class Loss(nn.modules.loss._Loss):
         nsr, nhr = sr * weight, hr * weight
         # calc loss
         lossval = self.loss(nsr, nhr)
-        return loss_sum
+        return lossval
 ```
 
 the library pytorch_ssim is focked from [Po-Hsun-Su/pytorch-ssim](https://github.com/Po-Hsun-Su/pytorch-ssim) and rewrite some details for adopting it to our requirements.
