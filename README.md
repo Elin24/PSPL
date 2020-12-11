@@ -3,8 +3,8 @@
 This is  an official implementaion of the paper **Pixel-level Self-Paced Learning for Super-Resolution**, which has been accepted by ICASSP 2020.
 
 [[arxiv](https://arxiv.org/abs/2003.03113)][[PDF](https://arxiv.org/pdf/2003.03113)]
-<!-- 
-[Pixel-level Self-Paced Learning for Super-Resolution](http://crabwq.github.io/pdf/2020%20Pixel-Level%20Self-Paced%20Learning%20for%20Super-Resolution.pdf)  -->
+
+trained model files: [Baidu Pan](https://pan.baidu.com/s/1ZDqJbn0kxAqEmkvMSUMD9g)(code: v0be)
 
 ## Requirements
 
